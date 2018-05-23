@@ -28,6 +28,7 @@ if [ $(echo `pwd` | grep setup_scripts | wc -l) -ne 0 ]; then
 	echo `date` >> eula.txt
 	echo 'eula=true' >> eula.txt
 
+
 	# create the plugins directory
 	echo 'Creating the plugins directory and linking the bitquest plugin'
 	mkdir -p plugins
